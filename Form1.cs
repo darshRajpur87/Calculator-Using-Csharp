@@ -28,8 +28,8 @@ namespace Login
         {
             int Number1 = int.Parse(textBox1.Text);
             int Number2 = int.Parse(textBox2.Text);
-            int Additon = Number1 - Number2;
-            AnswerTextbox.Text = Additon.ToString();
+            int Subtraction = Number1 - Number2;
+            AnswerTextbox.Text = Subtraction.ToString();
             AnswerTextbox.Visible = true;
             label4.Visible = true;
             label4.Text = "Subtraction Result";
@@ -39,8 +39,8 @@ namespace Login
         {
             int Number1 = int.Parse(textBox1.Text);
             int Number2 = int.Parse(textBox2.Text);
-            int Additon = Number1 * Number2;
-            AnswerTextbox.Text = Additon.ToString();
+            int Multiplication = Number1 * Number2;
+            AnswerTextbox.Text = Multiplication.ToString();
             AnswerTextbox.Visible = true;
             label4.Visible = true;
             label4.Text = "Multiplication Result";
@@ -51,8 +51,8 @@ namespace Login
         {
             float Number1 = int.Parse(textBox1.Text);
             float Number2 = int.Parse(textBox2.Text);
-            float Additon = Number1 / Number2;
-            AnswerTextbox.Text = Additon.ToString();
+            float Division = Number1 / Number2;
+            AnswerTextbox.Text = Division.ToString();
             AnswerTextbox.Visible = true;
             label4.Visible = true;
             label4.Text = "Division Result";
